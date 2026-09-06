@@ -1,0 +1,43 @@
+{
+  "appearance": {
+    "font": {
+      "body": {
+        "family": "Rubik"
+      },
+      "clock": "Rubik",
+      "headline": {
+        "family": "Rubik"
+      },
+      "label": {
+        "family": "Rubik"
+      },
+      "mono": {
+        "family": "CaskaydiaCove NF"
+      },
+      "title": {
+        "family": "Rubik"
+      }
+    }
+  },
+  "lock": {
+    "useWallpaper": true
+  },
+  "paths": {
+    "mediaGif": "/home/nk/.config/caelestia/assets/solaire.gif",
+    "sessionGif": "/home/nk/.config/caelestia/assets/bonfire.gif"
+  },
+  "services": {
+    "defaultPlayer": "Spotify",
+    "playerAliases": [
+      {
+        "from": "com.github.th_ch.youtube_music",
+        "to": "YT Music"
+      }
+    ],
+    "useFahrenheit": false,
+    "useTwelveHourClock": false
+  },
+  "sidebar": {
+    "enabled": true
+  }
+}

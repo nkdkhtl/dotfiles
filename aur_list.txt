@@ -1,0 +1,10 @@
+caelestia-cli
+caelestia-firefox-theme
+caelestia-shell
+darkly-bin
+equibop-bin
+papirus-folders
+paru
+paru-debug
+pwvucontrol
+qtengine

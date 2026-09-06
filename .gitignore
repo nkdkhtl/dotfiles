@@ -1,0 +1,28 @@
+# Cache, data không cần backup
+*.log
+*.sock
+*.pid
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache của các ứng dụng
+.cache/
+__pycache__/
+
+# File bảo mật - KHÔNG ĐƯỢC commit
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+id_dsa*
+id_ecdsa*
+authorized_keys
+known_hosts
+secrets/
+.env
+.env.local
+
+# Thư mục runtime tạm thời của Caelestia
+/caelestia/.config/caelestia/monitors/
