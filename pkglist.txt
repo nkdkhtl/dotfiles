@@ -55,6 +55,7 @@ refind
 ripgrep
 sof-firmware
 starship
+stow
 sudo
 thunar
 trash-cli
