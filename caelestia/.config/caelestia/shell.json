@@ -19,6 +19,12 @@
       }
     }
   },
+  "bar": {
+    "clock": {
+      "showDate": true,
+      "dateFormat": "dd/MM"
+    }
+  },
   "lock": {
     "useWallpaper": true
   },
