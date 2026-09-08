@@ -27,6 +27,7 @@ foot
 frameworkintegration
 git
 gnome-keyring
+greetd
 gst-plugin-pipewire
 hyprland
 hyprpicker

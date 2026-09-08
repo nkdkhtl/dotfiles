@@ -3,7 +3,7 @@ hl.monitor({
     output   = "eDP-2",
     mode     = "2560x1600@120.01",
     position = "0x0",
-    scale    = 1.5,
+    scale    = 1.67,
 })
 
 -- Samsung External Monitor (24" 1080p, 100Hz, placed to the right)
@@ -11,7 +11,7 @@ hl.monitor({
     output   = "HDMI-A-1",
     mode     = "1920x1080@100.00",
     position = "auto-left",
-    scale    = 1,
+    scale    = 1.25,
 })
 
 -- Prevent blurry text/windows in XWayland apps when using fractional scaling
@@ -40,4 +40,12 @@ hl.config({
         mouse_move_enables_dpms = false,
         key_press_enables_dpms  = true,
     },
+    input = {
+            -- Mouse: tắt acceleration, đường thẳng tuyến tính
+        sensitivity        = 0.5,      -- 0 = không thay đổi DPI, range: -1.0 đến 1.0
+        accel_profile      = "flat", -- flat = tắt hoàn toàn acceleration
+    }
+
+
 })
+

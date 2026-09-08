@@ -1,4 +1,5 @@
 return {
-    kbLauncher   = "ALT + Space",
+    kbLauncher    = "ALT + Space",
+    kbGoToWs      = "ALT",
     kbMoveWinToWs = "ALT + SHIFT",
 }

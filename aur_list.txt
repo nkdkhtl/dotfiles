@@ -1,3 +1,4 @@
+bibata-cursor-theme-bin
 caelestia-cli
 caelestia-firefox-theme
 caelestia-shell

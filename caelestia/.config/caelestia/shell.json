@@ -1,24 +1,5 @@
 {
-  "appearance": {
-    "font": {
-      "body": {
-        "family": "Rubik"
-      },
-      "clock": "Rubik",
-      "headline": {
-        "family": "Rubik"
-      },
-      "label": {
-        "family": "Rubik"
-      },
-      "mono": {
-        "family": "CaskaydiaCove NF"
-      },
-      "title": {
-        "family": "Rubik"
-      }
-    }
-  },
+
   "bar": {
     "clock": {
       "showDate": true,
