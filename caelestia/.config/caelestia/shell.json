@@ -7,7 +7,8 @@
     }
   },
   "lock": {
-    "useWallpaper": true
+    "useWallpaper": true,
+    "hideNotifs": true
   },
   "paths": {
     "mediaGif": "/home/nk/.config/caelestia/assets/solaire.gif",

@@ -1,4 +1,18 @@
--- Laptop Screen (2.5K 16:10, 1.5x scale, 120Hz)
+-- Laptop Screen (2.5K 16:10, 1.67x scale, 120Hz)
+-- Nhận diện theo mã phần cứng màn hình (bất kể boot bằng iGPU eDP-1 hay dGPU eDP-2)
+hl.monitor({
+    output   = "desc:California Institute of Technology 0x1615",
+    mode     = "2560x1600@120.01",
+    position = "0x0",
+    scale    = 1.67,
+})
+-- Dự phòng cho cả eDP-1 và eDP-2
+hl.monitor({
+    output   = "eDP-1",
+    mode     = "2560x1600@120.01",
+    position = "0x0",
+    scale    = 1.67,
+})
 hl.monitor({
     output   = "eDP-2",
     mode     = "2560x1600@120.01",
@@ -24,9 +38,12 @@ hl.config({
 -- Vietnamese Input Method (Fcitx5)
 -- Note: Do NOT set GTK_IM_MODULE on Wayland; GTK uses Wayland text-input protocol natively
 hl.env("XMODIFIERS", "@im=fcitx")
+hl.env("QT_IM_MODULE", "fcitx")
 
--- Autostart Fcitx5
-hl.exec_cmd("fcitx5 -d --replace")
+-- Autostart Fcitx5 (đợi 1.5s để Hyprland khởi tạo xong Wayland socket & text-input protocol)
+hl.on("hyprland.start", function()
+    hl.exec_cmd("sleep 1.5 && fcitx5 -d --replace")
+end)
 
 -- Lock screen: lock and turn off display immediately (DPMS off)
 hl.bind("SUPER + L", function()

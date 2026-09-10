@@ -39,12 +39,17 @@ linux
 linux-firmware
 micro
 mkinitcpio
+nano
 networkmanager
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+nvidia-open
+nvidia-prime
+nvidia-utils
 nwg-displays
 papirus-icon-theme
+peazip
 pipewire
 pipewire-alsa
 pipewire-audio
